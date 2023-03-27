@@ -1,4 +1,8 @@
 header {
+    overflow: hidden;
+    height: 12vh;
+    min-height: 70px;
+    width: 100vw;
     display: grid;
     grid-template-columns: minmax(180px, 1fr) 4fr;
     background-color: #322a26;
