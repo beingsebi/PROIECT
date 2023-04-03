@@ -1,17 +1,15 @@
 header {
-    background-color: #322a26;
+    background-color: #252422;
     height: 60px;
 }
 
 header > .container > nav > ul > li > a {
     text-decoration: none !important;
-    color: white;
-
     padding-bottom: 1px;
     margin: 0 10px;
     font-family: "Open Sans", sans-serif;
     font-size: 13px;
-    color: #ffcf8d;
+    color: #fffcf2;
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -39,7 +37,7 @@ header ul {
     display: block;
     width: 0;
     height: 1px;
-    background: #ffcf8d;
+    background: #fffcf2;
     transition: width 0.4s;
 }
 
