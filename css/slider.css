@@ -37,6 +37,10 @@
     /* text-align: center; */
 }
 
+.text > p {
+    margin-bottom: 7px;
+}
+
 .active {
     background-color: #717171;
 }
@@ -44,14 +48,20 @@
 /* Fading animation */
 .fade {
     animation-name: fade;
-    animation-duration: 2.5s;
+    animation-duration: 8s;
 }
 
 @keyframes fade {
-    from {
-        opacity: 0.2;
+    0% {
+        opacity: 0.06;
     }
-    to {
+    25% {
         opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.06;
     }
 }
