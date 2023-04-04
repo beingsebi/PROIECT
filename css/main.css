@@ -1,6 +1,8 @@
 main {
-    display: block;
+    /* max-width: 100vw; */
+    overflow: hidden;
 }
+
 .cards-holder {
-    display: block;
+    display: flex;
 }

@@ -6,43 +6,45 @@
 .mySlides {
     display: none;
 }
+
+.slideshow-container {
+    display: block;
+    position: relative;
+    margin: auto;
+    min-width: 300px !important;
+    width: 100vw;
+    background-color: #8dbdff;
+}
+
 .slideshow-container img {
     width: 100%;
     vertical-align: middle;
     overflow: hidden;
     height: 91vh;
+    /* max-height: 600px; */
     object-fit: cover;
     min-height: 300px !important;
+    /* max-width: 100vw; */
 }
 
-/* Slideshow container */
-.slideshow-container {
-    position: relative;
-    margin: auto;
-    min-width: 300px !important;
-    background-color: #8dbdff;
-}
-
-/* Caption text */
 .text {
     color: #f2f2f2;
-    font-size: 3em;
+    font-size: calc(22px + 2vw);
     font-family: "slfont", sans-serif;
     font-weight: bold;
     padding: 0;
     margin: 0;
     position: absolute;
     left: 5vw;
-    top: 50vh;
-    width: 100%;
-    /* text-align: center; */
+    top: 50%;
+    max-width: 400px;
 }
 
 .text > p {
     margin-bottom: 7px;
+    max-width: 300px;
 }
 
-/* Fading animation */
 .fade {
     animation-name: fade;
     animation-duration: 8s;

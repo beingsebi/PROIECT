@@ -1,6 +1,7 @@
 header {
     background-color: #32312e;
     height: 60px;
+    overflow: hidden;
 }
 
 .header-container {
