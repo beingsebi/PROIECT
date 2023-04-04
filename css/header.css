@@ -25,6 +25,7 @@ header > .header-container > nav > ul > li > a {
     font-family: "Open Sans", sans-serif;
     font-size: 13px;
     color: #fffcf2;
+    /* color: rgb(252, 233, 18); */
     font-weight: 600;
     text-transform: uppercase;
 }

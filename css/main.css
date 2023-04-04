@@ -22,12 +22,15 @@ main {
 
 .card-text-holder {
     padding-left: 5px;
-    font-family: "slfont", sans-serif;
+    /* font-family: "slfont", sans-serif; */
+    font-family: "Poppins", sans-serif;
+
     text-align: center;
 }
 
 .card-text-holder > h1 {
     font-size: calc(19px + 1vw);
+    font-weight: 600;
 }
 .card-text-holder > p {
     padding-top: 5px;
