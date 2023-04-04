@@ -29,14 +29,14 @@
 
 .text {
     color: #f2f2f2;
-    font-size: calc(22px + 2vw);
+    font-size: calc(25px + 2vw);
     font-family: "slfont", sans-serif;
     font-weight: bold;
     padding: 0;
     margin: 0;
     position: absolute;
     left: 5vw;
-    top: 50%;
+    top: 60%;
     max-width: 400px;
 }
 
