@@ -1,3 +1,6 @@
 main {
-    background-color: #8dbdff;
+    display: block;
+}
+.cards-holder {
+    display: block;
 }

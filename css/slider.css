@@ -20,6 +20,7 @@
     position: relative;
     margin: auto;
     min-width: 300px !important;
+    background-color: #8dbdff;
 }
 
 /* Caption text */
@@ -41,10 +42,6 @@
     margin-bottom: 7px;
 }
 
-.active {
-    background-color: #717171;
-}
-
 /* Fading animation */
 .fade {
     animation-name: fade;
@@ -53,15 +50,15 @@
 
 @keyframes fade {
     0% {
-        opacity: 0.06;
+        opacity: 0.09;
     }
-    25% {
+    20% {
         opacity: 1;
     }
     75% {
         opacity: 1;
     }
     100% {
-        opacity: 0.06;
+        opacity: 0.09;
     }
 }

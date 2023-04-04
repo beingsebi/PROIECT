@@ -3,18 +3,7 @@ header {
     height: 60px;
 }
 
-header > .container > nav > ul > li > a {
-    text-decoration: none !important;
-    padding-bottom: 1px;
-    margin: 0 10px;
-    font-family: "Open Sans", sans-serif;
-    font-size: 13px;
-    color: #fffcf2;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-
-.container {
+.header-container {
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 15px;
@@ -26,6 +15,17 @@ header > .container > nav > ul > li > a {
 
 header ul {
     display: flex;
+}
+
+header > .header-container > nav > ul > li > a {
+    text-decoration: none !important;
+    padding-bottom: 1px;
+    margin: 0 10px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    color: #fffcf2;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 .cool-link {
@@ -43,4 +43,15 @@ header ul {
 
 .cool-link:hover::after {
     width: 100%;
+}
+
+.logo-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-holder img {
+    max-width: 70px;
+    /* object-fit: contain; */
 }
