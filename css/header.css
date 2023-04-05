@@ -1,5 +1,6 @@
 header {
-    background-color: #32312e;
+    /* background-color: #32312e; */
+    background-color: #fbfbff;
     height: 80px;
     overflow: hidden;
 }
@@ -23,8 +24,8 @@ header > .header-container > nav > ul > li > a {
     padding-bottom: 1px;
     margin: 0 10px;
     font-family: "Open Sans", sans-serif;
-    font-size: calc(7.5px + 0.8vw);
-    color: #fffcf2;
+    font-size: calc(5.5px + 0.8vw);
+    color: #3350ff;
     /* color: rgb(252, 233, 18); */
     font-weight: 600;
     text-transform: uppercase;
@@ -39,7 +40,8 @@ header > .header-container > nav > ul > li > a {
     display: block;
     width: 0;
     height: 1px;
-    background: #fffcf2;
+    /* background: #fffcf2; */
+    background: #3350ff;
     transition: width 0.4s;
 }
 
@@ -54,6 +56,6 @@ header > .header-container > nav > ul > li > a {
 }
 
 .logo-holder img {
-    max-width: 140px;
+    max-width: 150px;
     /* object-fit: contain; */
 }
