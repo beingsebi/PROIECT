@@ -1,4 +1,4 @@
-.button-35 {
+.my_button {
     align-items: center;
     background-color: #f1efef;
     background-color: rgb(84 128 232 / 29%);
@@ -11,8 +11,8 @@
     display: inline-flex;
     flex: 1 1 auto;
     font-family: Inter, sans-serif;
-    font-size: calc(11px + 0.7vw);
-    font-weight: 700;
+    font-size: calc(9px + 0.7vw);
+    font-weight: 600;
     justify-content: center;
     line-height: 1;
     margin: 15px;
@@ -28,6 +28,10 @@
     touch-action: manipulation;
 }
 
-.button-35:hover {
+.my_button:hover {
     box-shadow: #121212 0 0 0 2px, transparent 0 0 0 0;
+}
+
+#bt-cnt {
+    max-width: 300px;
 }

@@ -93,3 +93,22 @@ main {
     text-align: center;
     font-size: calc(7px + 1vw);
 }
+
+.contact-us {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.contact-us h2 {
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.contact-us a {
+    padding-left: 10px;
+    padding-right: 15px;
+}
