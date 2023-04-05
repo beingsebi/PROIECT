@@ -28,15 +28,15 @@
 
 .text {
     color: #fbfbff;
-    font-size: calc(30px + 1.8vw);
+    font-size: calc(25px + 1.8vw);
     font-family: sans-serif;
-    font-weight: bold;
+    /* font-family: "Poppins", sans-serif; */
+    font-weight: 600;
     padding: 0;
     margin: 0;
     position: absolute;
     left: 5vw;
     bottom: 80px;
-    /* calc(120px + 30%); */
     max-width: 500px;
 }
 
