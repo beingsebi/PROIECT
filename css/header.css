@@ -1,11 +1,11 @@
 header {
     background-color: #32312e;
-    height: 60px;
+    height: 80px;
     overflow: hidden;
 }
 
 .header-container {
-    max-width: 88vw;
+    max-width: 91vw;
     margin: 0 auto;
     padding: 0 15px;
     display: flex;
@@ -23,7 +23,7 @@ header > .header-container > nav > ul > li > a {
     padding-bottom: 1px;
     margin: 0 10px;
     font-family: "Open Sans", sans-serif;
-    font-size: 13px;
+    font-size: calc(7.5px + 0.8vw);
     color: #fffcf2;
     /* color: rgb(252, 233, 18); */
     font-weight: 600;
@@ -54,6 +54,6 @@ header > .header-container > nav > ul > li > a {
 }
 
 .logo-holder img {
-    max-width: 70px;
+    max-width: 110px;
     /* object-fit: contain; */
 }
