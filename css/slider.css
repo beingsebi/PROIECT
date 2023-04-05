@@ -27,6 +27,7 @@
 }
 
 .text {
+    display: inline;
     color: #fbfbff;
     font-size: calc(25px + 1.8vw);
     font-family: sans-serif;

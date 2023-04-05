@@ -31,7 +31,7 @@ main {
     text-align: center;
 }
 
-.card-text-holder > h1 {
+.card-text-holder > h2 {
     font-size: calc(19px + 1vw);
     font-weight: 600;
     /* color: rgb(84 128 232); */
