@@ -1,8 +1,3 @@
-/* @font-face {
-    font-family: slfont;
-    src: url("files/slfont.ttf");
-} */
-
 .mySlides {
     display: none;
 }
@@ -10,18 +5,20 @@
 .slideshow-container {
     display: block;
     position: relative;
-    margin: auto;
+    margin: 0;
+    padding: 0;
     min-width: 300px !important;
-    width: 100vw;
+    width: 100%;
     background-color: #bdd9ff;
     /* #8dbdff */
+    overflow: hidden;
 }
 
 .slideshow-container img {
     width: 100%;
     vertical-align: middle;
     overflow: hidden;
-    height: 91vh;
+    height: 89vh;
     /* max-height: 600px; */
     object-fit: cover;
     min-height: 300px !important;

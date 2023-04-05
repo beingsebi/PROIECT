@@ -13,6 +13,7 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 100%;
+    overflow: hidden;
 }
 
 header ul {
@@ -24,11 +25,18 @@ header > .header-container > nav > ul > li > a {
     padding-bottom: 1px;
     margin: 0 10px;
     font-family: "Open Sans", sans-serif;
-    font-size: calc(5.5px + 0.8vw);
+    font-size: calc(6px + 0.6vw);
     color: #3350ff;
     /* color: rgb(252, 233, 18); */
     font-weight: 600;
     text-transform: uppercase;
+}
+
+@media only screen and (max-width: 800px) {
+    header > .header-container > nav > ul > li > a {
+        margin: 0 6px;
+        font-size: 11px;
+    }
 }
 
 .cool-link {
@@ -57,5 +65,7 @@ header > .header-container > nav > ul > li > a {
 
 .logo-holder img {
     max-width: 150px;
+    margin: 0;
+    padding: 0;
     /* object-fit: contain; */
 }
