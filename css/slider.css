@@ -1,5 +1,6 @@
 .mySlides {
     display: none;
+    position: relative;
 }
 
 .slideshow-container {
@@ -34,7 +35,8 @@
     margin: 0;
     position: absolute;
     left: 5vw;
-    top: calc(220px + 30%);
+    bottom: 80px;
+    /* calc(120px + 30%); */
     max-width: 500px;
 }
 

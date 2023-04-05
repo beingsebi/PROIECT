@@ -4,6 +4,7 @@ main {
 }
 
 .cards-holder {
+    padding-top: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -33,7 +34,62 @@ main {
 .card-text-holder > h1 {
     font-size: calc(19px + 1vw);
     font-weight: 600;
+    /* color: rgb(84 128 232); */
+    color: #3350ff;
 }
+
 .card-text-holder > p {
     padding-top: 5px;
+}
+.main-about-holder {
+    display: grid;
+    min-height: 100px;
+    grid-template-columns: 1fr 1fr;
+    background: #f1efef;
+}
+
+@media only screen and (max-width: 800px) {
+    .main-about-holder {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        grid-template-columns: none;
+        align-items: center;
+    }
+}
+
+.main-aux-holder {
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.main-about-holder img {
+    max-width: calc(220px + 30vw);
+    padding: 40px;
+}
+
+.main-about-holder article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    padding-top: 30px;
+}
+
+.main-about-holder h1 {
+    text-align: center;
+    font-size: calc(10px + 1vw);
+    font-family: "slfont", sans-serif;
+    font-weight: bold;
+    padding-top: 8px;
+    padding-bottom: 13px;
+}
+
+.main-about-holder h2 {
+    text-align: center;
+    font-size: calc(7px + 1vw);
 }
