@@ -1,0 +1,20 @@
+#about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+#about-container .mySlides {
+    display: block;
+}
+
+#about-container img {
+    max-height: 200px !important;
+    width: 100vw;
+}
+
+#about-container .text {
+    left: calc(40% - 4rem);
+    bottom: 30%;
+}
