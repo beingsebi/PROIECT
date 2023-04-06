@@ -35,7 +35,7 @@ main {
     font-size: calc(19px + 1vw);
     font-weight: 600;
     /* color: rgb(84 128 232); */
-    color: #3350ff;
+    color: var(--logo-blue);
 }
 
 .card-text-holder > p {
@@ -87,7 +87,7 @@ main {
     font-weight: bold;
     padding-top: 8px;
     padding-bottom: 13px;
-    color: #3350ff;
+    color: var(--logo-blue);
 }
 
 .main-about-holder h2 {

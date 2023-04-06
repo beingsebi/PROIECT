@@ -6,7 +6,7 @@
     border-radius: 12px;
     box-shadow: transparent 0 0 0 3px, rgba(18, 18, 18, 0.1) 0 6px 20px;
     box-sizing: border-box;
-    color: #3350ff;
+    color: var(--logo-blue);
     cursor: pointer;
     display: inline-flex;
     flex: 1 1 auto;
