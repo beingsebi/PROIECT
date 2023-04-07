@@ -66,9 +66,17 @@ main {
     justify-items: center;
     align-items: center;
 }
+
+@media only screen and (max-width: 800px) {
+    #change-order {
+        order: 9;
+    }
+}
+
 .main-about-holder img {
     max-width: calc(220px + 30vw);
     padding: 40px;
+    justify-self: center;
 }
 
 .main-about-holder article {

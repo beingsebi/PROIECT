@@ -18,3 +18,13 @@
     left: calc(40% - 4rem);
     bottom: 30%;
 }
+
+#my-white {
+    background-color: #fbfbff;
+}
+
+@media only screen and (max-width: 800px) {
+    #change-order {
+        order: 9;
+    }
+}
