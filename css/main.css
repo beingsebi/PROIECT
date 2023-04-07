@@ -111,6 +111,8 @@ main {
     justify-content: center;
     align-items: center;
     justify-items: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
 }
 
 .contact-us h2 {
