@@ -20,7 +20,7 @@
 }
 
 #my-white {
-    background-color: #fbfbff;
+    background-color: var(--my-white);
 }
 
 @media only screen and (max-width: 800px) {

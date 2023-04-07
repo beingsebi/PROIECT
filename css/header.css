@@ -1,6 +1,6 @@
 header {
     /* background-color: #32312e; */
-    background-color: #fbfbff;
+    background-color: var(--my-white);
     height: 80px;
     overflow: hidden;
 }
