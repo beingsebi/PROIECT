@@ -1,0 +1,27 @@
+.serv-holder {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    background-color: #f1f1f1;
+}
+
+.serv-holder img {
+    width: 10vh;
+    margin: 20px;
+}
+
+.serv-holder h2 {
+    padding: 20px 0px;
+}
+
+.serv-card {
+    width: 500px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 35px;
+    margin-right: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
