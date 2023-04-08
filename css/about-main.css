@@ -19,14 +19,6 @@
     bottom: 30%;
 }
 
-#my-white {
-    background-color: var(--my-white);
-}
-
-#my-gray {
-    background-color: #f1efef;
-}
-
 @media only screen and (max-width: 800px) {
     #change-order {
         order: 9;
