@@ -78,6 +78,10 @@ main {
     }
 }
 
+.card-text-holder p {
+    text-align: justify;
+}
+
 .main-about-holder img {
     width: 80%;
     height: 100%;
