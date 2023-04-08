@@ -48,7 +48,7 @@ main {
     background: #f1efef;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1200px) {
     .main-about-holder {
         display: flex;
         justify-content: center;
@@ -67,9 +67,14 @@ main {
     align-items: center;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1200px) {
     #change-order {
         order: 9;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .main-about-holder img {
+        min-width: 450px !important;
     }
 }
 
@@ -79,8 +84,10 @@ main {
     min-width: none;
     max-height: 380px;
     padding: 40px;
+    margin: 20px;
     justify-self: center;
-    min-width: 550px;
+    min-width: 500px;
+    max-width: 50vw;
 }
 
 .main-about-holder article {
