@@ -24,3 +24,21 @@
         order: 9;
     }
 }
+
+.main-aux-holder h2 {
+    text-align: justify !important;
+    font-size: 17px;
+}
+
+.main-aux-holder article {
+    max-width: 550px !important;
+    margin-left: 50px;
+}
+
+.about-about {
+    padding-bottom: 30px !important;
+}
+
+.about-about img {
+    min-width: 500px !important;
+}
