@@ -69,8 +69,12 @@ header > .header-container > nav > ul > li > a {
     /* object-fit: contain; */
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
     .logo-holder img {
         max-width: 100px;
+    }
+    .header-container {
+        max-width: 97vw;
+        padding: 0;
     }
 }
