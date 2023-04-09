@@ -1,5 +1,6 @@
 :root {
-    --logo-blue: #3350ff;
+    /* --logo-blue: #3350ff; */
+    --logo-blue: red;
     --my-white: #fbfbff;
 }
 
