@@ -21,6 +21,7 @@ function updateText() {
         localStorage.setItem("lastMinute", minutes.toString());
     }
 }
+
 window.onload = function () {
     localStorage.clear();
     updateText();
