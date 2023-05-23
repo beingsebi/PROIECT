@@ -15,6 +15,4 @@ function addItemsToMyUL() {
             console.log("Error:", error);
         });
 }
-
 addItemsToMyUL();
-window.addEventListener("DOMContentLoaded", addItemsToMyUL);
