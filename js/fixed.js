@@ -16,9 +16,7 @@ function updateTime() {
     var currentTime = new Date();
 
     var hours = currentTime.getHours();
-
     var minutes = currentTime.getMinutes();
-
     var seconds = currentTime.getSeconds();
 
     var formattedTime = hours + ":" + padZero(minutes) + ":" + padZero(seconds);
@@ -26,8 +24,10 @@ function updateTime() {
     document.getElementById("current-time").textContent = formattedTime;
 }
 
+setInterval(updateTime, 1000); // Update time every second
+
 function padZero(number) {
-    return (number < 10 ? "0" : "") + number;
+    return number < 10 ? "0" + number : number;
 }
 
 setInterval(updateTime, 1000);

@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="css/button.css" />
         <link rel="stylesheet" href="css/about-main.css" />
         <link rel="stylesheet" href="css/contact-main.css" />
+        <link rel="stylesheet" href="css/form.css" />
 
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -112,6 +113,19 @@
                 referrerpolicy="no-referrer-when-downgrade"
                 id="maps"
             ></iframe>
+
+            <form
+                id="my-form"
+                action="https://formspree.io/f/mqkoopnz"
+                method="POST"
+            >
+                <label>Email-ul dumneavoastra:</label>
+                <input type="email" name="email" id="email-input" />
+                <label>Mesajul dumneavoastra:</label>
+                <input type="text" name="message" />
+                <button id="my-form-button">Submit</button>
+                <p id="my-form-status"></p>
+            </form>
         </main>
 
         <footer>
@@ -122,5 +136,6 @@
 
         <script src="js/preloader.js"></script>
         <script src="js/fixed.js"></script>
+        <script src="js/email.js"></script>
     </body>
 </html>
